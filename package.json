@@ -1,0 +1,25 @@
+{
+  "name": "akai-page",
+  "version": "1.0.0",
+  "description": "Main page for AKAI organisation",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akai-org/akai-page.git"
+  },
+  "author": "AKAI",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akai-org/akai-page/issues"
+  },
+  "homepage": "https://github.com/akai-org/akai-page#readme",
+  "dependencies": {
+    "next": "^9.1.5",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  }
+}
