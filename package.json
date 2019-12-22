@@ -18,7 +18,9 @@
   },
   "homepage": "https://github.com/akai-org/akai-page#readme",
   "dependencies": {
+    "@zeit/next-sass": "^1.0.1",
     "next": "^9.1.5",
+    "node-sass": "^4.13.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
   }
