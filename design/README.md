@@ -4,30 +4,30 @@
 
 ### Mobile O Nas
 
-![Mobile O Nas](./eksporty/mobile%20o%20nas.png)
+![Mobile O Nas](https://raw.githubusercontent.com/akai-org/akai-page/master/design/eksporty/Mobile%20O%20Nas.png)
 
 ### Mobile O Nas Member
 
-![Mobile O Nas Member](./eksporty/mobile%20o%20nas%20member.png)
+![Mobile O Nas Member](https://raw.githubusercontent.com/akai-org/akai-page/master/design/eksporty/Mobile%20O%20Nas%20Member.png)
 
 ### Mobile Wydarzenia
 
-![Mobile Wydarzenia](./eksporty/mobile%20wydarzenia.png)
+![Mobile Wydarzenia](https://raw.githubusercontent.com/akai-org/akai-page/master/design/eksporty/Mobile%20Wydarzenia.png)
 
 ### Mobile Menu
 
-![Mobile Menu](./eksporty/mobile%20menu%20proto.png)
+![Mobile Menu](https://raw.githubusercontent.com/akai-org/akai-page/master/design//eksporty/Mobile%20Menu%20Proto.png)
 
 ## Desktop views
 
 ### Desktop O Nas
 
-![Desktop O Nas](./eksporty/desktop%20o%20nas.png)
+![Desktop O Nas](https://raw.githubusercontent.com/akai-org/akai-page/master/design/eksporty/Desktop%20O%20Nas.png)
 
 ### Desktop O Nas Meber
 
-![Desktop O Nas Meber](./eksporty/desktop%20o%20nas%20member.png)
+![Desktop O Nas Meber](https://raw.githubusercontent.com/akai-org/akai-page/master/design/eksporty/Desktop%20O%20Nas%20Member.png)
 
 ### Desktop Wydarzenia
 
-![Desktop Wydarzenia](./eksporty/desktop%20wydarzenia.png)
+![Desktop Wydarzenia](https://raw.githubusercontent.com/akai-org/akai-page/master/design/eksporty/Desktop%20Wydarzenia.png)
