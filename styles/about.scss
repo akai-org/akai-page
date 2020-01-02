@@ -1,12 +1,76 @@
-.about_page {
-    height: 100vh;
-    background: url('/assets/images/background.png');
-    display: flex;
-    align-items: center;
-    justify-content: center;
+@import '../styles/colors';
 
-    h1 {
-        text-align: center;
-        color: white;
+.accent_line {
+    height: 5px;
+    width: 30px;
+    background-color: $accent;
+    margin: 20px 0;
+}
+
+.about_page {
+
+    .divider {
+        color: $secondary;
+        padding: 1em;
+        background-color: transparent;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        box-shadow: 0px 0px 40px rgba(0, 0, 0, .3);
+
+        &__title {
+            text-align: center;
+            font-size: 28px;
+            font-weight: 800;
+            line-height: 39px;
+        }
+
+        &__paragraph {
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 24px;
+            text-align: center;
+        }
+
+        .learn_more {
+            position: absolute;
+            top: 90vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            font-size: 18px;
+
+            svg {
+                fill: $primary;
+            }
+        }
+
+        &--hero {
+            color: $primary;
+            height: 100vh;
+            background: url('/assets/images/background.png');
+            box-shadow: none;
+
+            .divider__paragraph {
+                font-size: 19px;
+                line-height: 28px;
+                font-weight: 400;
+            }
+        }
     }
+
+    .sections {
+        padding: 1.5em;
+
+        &__item {
+
+            &_image {
+                width: 100%;
+            }
+        }
+    }
+
 }
