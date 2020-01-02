@@ -19,7 +19,7 @@ const Navbar = () => {
           alt='logo-light'
         /> */}
         <ReactSVG
-          src='/assets/icons/logo-dark.svg'
+          src='/assets/icons/logo.svg'
           className={[
             'navbar__header_logo',
             isMenuActive && 'navbar__header_logo--reversed'
