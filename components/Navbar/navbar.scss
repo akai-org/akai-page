@@ -1,0 +1,77 @@
+@import '../../styles/_colors.scss';
+
+.navbar {
+  padding-top: 1em;
+  width: 100%;
+  background-color: $primary;
+  box-shadow: $shadow;
+  z-index: 3;
+  position: fixed;
+
+  &__header {
+    padding: 0 1.3em 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &_logo {
+      svg {
+        width: 55px;
+        height: 55px;
+      }
+      .face {
+        fill: $secondary;
+      }
+
+      &--reversed {
+        .face {
+          fill: white;
+        }
+      }
+    }
+
+    &_button {
+      width: 55px;
+    }
+  }
+
+  &__list {
+    width: 100%;
+    background-color: $primary;
+    box-shadow: $shadow;
+    max-height: 0;
+    transform-origin: top;
+    list-style: none;
+    overflow: hidden;
+    list-style: none;
+    position: absolute;
+    transition: max-height 0.4s ease-out;
+
+    &--active {
+      max-height: 360px;
+    }
+
+    &_item {
+      font-size: 22px;
+      text-align: center;
+
+      a:link,
+      a:visited {
+        display: block;
+        text-decoration: none;
+        color: $secondary;
+        font-weight: 600;
+        padding: 1.2em;
+        transition: background-color 0.1s ease-in-out, color 0.1s linear;
+      }
+
+      a:active {
+        background-color: $secondary;
+        color: #fff;
+      }
+
+      &--alternative {
+      }
+    }
+  }
+}
