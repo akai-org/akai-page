@@ -59,11 +59,15 @@
 
     &_button {
       z-index: 999;
+      width: 55px;
+      height: 55px;
+      position: relative;
 
       div {
         width: 55px;
         height: 5px;
-        position: relative;
+        position: absolute;
+        top: 50%;
         background-color: $secondary;
         transition: 0.5s;
 
