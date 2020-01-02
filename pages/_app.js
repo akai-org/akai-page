@@ -5,11 +5,7 @@ import MainLayout from '../components/Layouts/MainLayout';
 
 const App = props => {
   const { Component, pageProps } = props;
-  return (
-    <MainLayout>
-      <Component {...pageProps} />
-    </MainLayout>
-  );
+  return <Component {...pageProps} />;
 };
 
 export default App;
