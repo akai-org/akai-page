@@ -19,12 +19,13 @@
         width: 55px;
         height: 55px;
       }
-      .face {
+
+      .color {
         fill: $secondary;
       }
 
       &--reversed {
-        .face {
+        .color {
           fill: white;
         }
       }
@@ -70,8 +71,7 @@
         color: #fff;
       }
 
-      &--alternative {
-      }
+      &--alternative {}
     }
   }
 }
