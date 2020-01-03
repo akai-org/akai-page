@@ -13,7 +13,7 @@ export const Hero = ({ title, desc }) => {
   return (
     <div className='divider divider--hero'>
       <h1 className='divider__title'>{title}</h1>
-      <span className='accent_line'></span>
+      <div className='accent_line'></div>
       <p className='divider__paragraph'>{desc}</p>
       <div onClick={scrollDown} className='learn_more'>
         <span>Dowiedz się więcej</span>
@@ -48,8 +48,40 @@ const SectionItem = ({ title, img_src, desc }) => (
     <img className='sections__item_image' src={img_src} alt={title} />
     <div className='sections__item_description'>
       <h2>{title}</h2>
-      <span className='accent_line'></span>
+      <div className='accent_line'></div>
       <p>{desc}</p>
     </div>
   </div>
 );
+
+export const Members = ({ membersList, exMembersList }) => {
+  return (
+    <div className='members'>
+      <h2 className='members__header'>Aktualni członkowie</h2>
+      <div className='members__items members__items--current'>
+        {membersList.map(member => (
+          <MemberItem {...member} />
+        ))}
+      </div>
+      <h2 className='members__header'>Byli członkowie</h2>
+      <div className='members__items members__items--ex'>
+        {exMembersList.map(member => (
+          <MemberItem {...member} />
+        ))}
+      </div>
+    </div>
+  );
+};
+
+const MemberItem = ({ name, url, tags }) => {
+  return (
+    <div className='members__item'>
+      <img
+        className='members__item_image'
+        src={url || '/assets/images/avatar-placeholder.png'}
+      />
+      <p className='members__item_name'>{name}</p>
+      <p className='members__item_tags'>{tags.length ? tags[0] : 'brak?'}</p>
+    </div>
+  );
+};
