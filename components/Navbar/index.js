@@ -12,7 +12,6 @@ const Navbar = () => {
   const { route } = useRouter();
 
   function toggleMenu() {
-    console.log(window.pageYOffset);
     setIsMenuActive(state => !state);
   }
 
@@ -29,7 +28,7 @@ const Navbar = () => {
 
   return (
     <div className='navbar'>
-      <div className={headerClasses}>
+      <div id='header' className={headerClasses}>
         <ReactSVG
           src='/assets/icons/logo.svg'
           className='navbar__header_logo'

@@ -22,6 +22,5 @@ export default () => {
       setScrollPosition(window.scrollY);
     }
   }, []);
-  console.log(scrollPosition);
   return scrollPosition;
 };
