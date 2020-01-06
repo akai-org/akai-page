@@ -1,0 +1,19 @@
+@import '../../styles/_colors.scss';
+
+div.page-container{
+    margin-top: 100px;
+    text-align: center;
+
+    h1.page-event-section-header{
+        color: $secondary;
+        font-weight: 600;
+    }
+
+    div.page-event-container{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}

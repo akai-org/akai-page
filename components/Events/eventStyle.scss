@@ -11,7 +11,7 @@ div.event-container{
     box-shadow: 3px 3px 10px 3px #c7c2c2;
     width: $cont-width;
     height: $cont-height;
-    
+    margin-bottom: 15px;
 
     div.event-picture{
         width: 100%;
@@ -50,10 +50,6 @@ div.event-container{
             p.event-place{
                 width: $cont-width * .8;
                 
-            }
-
-            p.event-date{
-                // 
             }
         }
 
