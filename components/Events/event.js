@@ -3,7 +3,6 @@ import './eventStyle.scss'
 
 const Event = () => {
     return(
-        <>
         <div className="event-container">
             <div className="event-picture">
                 <img src="/assets/images/event2.png" alt=""/>
@@ -20,8 +19,6 @@ const Event = () => {
                 
             </div>
         </div>
-        <img src="/public/assets/images/event2.png" alt=""/>
-        </>
     )
 }
 
