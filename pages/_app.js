@@ -1,15 +1,11 @@
 import React from 'react';
-import './global.scss';
+import '../styles/global.scss';
 import Placeholder from '../components/Placeholder';
+import MainLayout from '../components/Layouts/MainLayout';
 
 const App = props => {
   const { Component, pageProps } = props;
-  return (
-    <>
-      {/* <Component {...pageProps} /> */}
-      <Placeholder />
-    </>
-  );
+  return <Component {...pageProps} />;
 };
 
 export default App;
